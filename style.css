@@ -1,0 +1,226 @@
+*
+
+table{
+    border:2px solid #353A46;
+    background-color: #3ABAF1;
+}
+
+.input_login [type=text]{
+    width:100%;
+    padding:8px 20px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.input_login[type=password]{
+  width:100%;
+  padding:8px 20px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+label{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: arial;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ /*Formulario para agregar usuarios
+            */
+            input[type=text]{
+                width: 50%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+              }
+              input[type=date]{
+                width: 50%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+              }
+              select{
+                width: 50%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+
+              }
+              
+              input[type=submit] {
+                width: 30%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                
+              }
+              input[type=password]{
+                width: 30%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+              }
+              input[type=email]{
+                width: 30%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+              }
+              
+              input[type=submit]:hover {
+                background-color: #45a049;
+              }
+              
+              div {
+                border-radius: 5px;
+                background-color: #d9d9d9;
+                padding: 20px;
+              }   
+              .div-form {
+                margin: auto; position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-49%, -49%);                
+              }
+*
+              {
+            box-sizing: border-box;
+          }
+          
+          body {
+            margin: 0;
+          }
+          
+          /* Style the header */
+          .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;           
+            font-family: arial;
+          }
+          
+          /* Style the top navigation bar */
+          .topnav {
+            overflow: hidden;
+            background-color: black;            
+            font-family: arial;
+          }
+          
+          /* Style the topnav links */
+          .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 0px 20px;
+            text-decoration: none;
+          }
+          
+          /* Change color on hover */
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+          /* Create three unequal columns that floats next to each other */
+          .column {
+            float: left;
+            padding: 10px;
+          }
+          
+          /* Left and right column */
+          .column.side {
+            text-align: center;
+            border: solid 3px;
+            width: 25%;
+          }
+          .column.add {
+            text-align: center;           
+            width: 20%;
+          }
+          .column.add_der {
+            text-align: center;
+            border: solid 3px;
+            background-color: white;
+
+            width: 30%;
+          }
+          .column.add.center {            
+            text-align: center;
+            border: solid 3px;
+            background-color: white;            
+            
+            width: 30%;
+          }   
+                  
+          /* Clear floats after the columns */
+          .row::after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          /* Footer */
+          .footer {
+            margin:auto;
+            background-color: black;
+            padding: 0px;
+            text-align: center;
+          }
+          .button{
+            box-shadow: #333;
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;          
+            font-family: arial;
+        }
+        
+        .button1 {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        
+        .button2:hover {
+            background-color: #008CBA;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+          
+          /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+          @media screen and (max-width: 600px) {
+            .column.side, .column.middle {
+              width: 100%;
+            }
+           
+          }
